@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>WEB dev challenge 2025</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/hamburger.css" />
+  </head>
+  <body>
+    <hero class="hero">
+      <nav>
+        <img class="logo" src="./assets/Jadoo.svg" alt="logo" />
+        <ul>
+          <li>Desitnations</li>
+          <li>Hotels</li>
+          <li>Flights</li>
+          <li>Bookings</li>
+          <li class="login-register">
+            <span class="login">Login</span>
+            <span class="regiser">Sing Up</span>
+          </li>
+          <li class="len">EN <img src="./assets/arr-down.png" /></li>
+        </ul>
 
-<script src="script.js"></script>
-</body>
+        <!-- hamburger  -->
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="popup">
+          <a href="#">Desitnations</a>
+          <a href="#">Hotels</a>
+          <a href="#">Flights</a>
+          <a href="#">Bookings</a>
+          <span>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+          </span>
+        </div>
+      </nav>
+      <section class="hero-content">
+        <div class="text">
+          <span>Best Destinations around the world</span>
+          <h1>Travel, enjoy and live a new and full life</h1>
+          <p>
+            Built Wicket longer admire do barton vanity itself do in it.
+            Preferred to sportsmen it engrossed listening. Park gate sell they
+            west hard for the.
+          </p>
+          <div class="btns">
+            <button>Find out more</button>
+            <button>
+              <img src="./assets/play.svg" alt="play" />
+              <span>Play Demo</span>
+            </button>
+          </div>
+        </div>
+        <img  class="hero-img" src="./assets/hero.png" alt="hero png" />
+      </section>
+    </hero>
+
+    <section class="category">
+      <h2>
+        <p>category</p>
+        <span>We Offer Best Services</span>
+      </h2>
+      <container class="card-container">
+        <div class="category-card">
+          <img src="./assets/satellite-dish.png" alt="icon" />
+          <span>Calculated Weather </span>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+        <div class="category-card">
+          <img src="./assets/plane.png" alt="icon" />
+          <span>Calculated Weather </span>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+        <div class="category-card">
+          <img src="./assets/mic.png" alt="icon" />
+          <span>Calculated Weather </span>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+      </container>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
 </html>
